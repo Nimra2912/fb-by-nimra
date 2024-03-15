@@ -1,0 +1,215 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 238);
+}
+
+.header {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    position: sticky;
+    top: 0;
+    padding-bottom: 4px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.one {
+    display: flex;
+}
+
+.search-icon {
+    left: 10rem;
+}
+
+.fblogo {
+    color: blue;
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.search-icon {
+    margin-left: 0.5rem;
+    background-color: #E4E6EB;
+    padding: 0.75rem;
+    border-radius: 50px;
+    height: 2.4rem;
+}
+
+.search-box {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+    top: -1.2rem;
+    left: 1.4rem;
+}
+
+::placeholder {
+    left: -0.7rem;
+    position: relative;
+}
+
+.imgdp {
+    height: 35px;
+    width: 35px;
+    top: 0.7rem;
+    position: relative;
+    border-radius: 50%!important;
+}
+
+::placeholder {
+    padding-left: 1rem;
+}
+
+.center-icons {
+    padding: 0;
+    width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.pages-icons{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pages-icons:hover {
+    cursor: pointer;
+    background-color: #EBEDF0;
+    border-radius: 15px;
+}
+.pages-icons:active{
+    color: blue;
+    fill: blue;
+    border-bottom: 4px solid blue;
+}
+
+.header-icons {
+    font-size: 1.3rem;
+    color: #828282;
+}
+
+.right-icons {
+    float: right;
+    position: relative;
+    top: -1rem;
+    display: inline;
+    color: rgb(100, 98, 98);
+    font-size: 1.2rem;
+    float: right;
+    padding-right: 1rem;
+}
+
+.righticon {
+    display: inline;
+    border-radius: 50%;
+    background-color: #E4E6EB;
+    color: black;
+    margin-bottom: 2px;
+    padding: 0.5rem;
+}
+
+.righticon:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+.header-second{
+    display: none;
+    height: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+.search-box {
+    opacity: 0;
+    width: 0;}
+.searchicon {
+    position: relative;
+    top: -0.1rem;}
+}
+
+
+@media (max-width: 700px) {
+.header { width: 100%;
+padding-top:0.5rem;
+padding-bottom:0.5rem;
+}
+ .fblogo {
+        font-size: 2rem;
+        position: relative;
+        top: 0.2rem;}
+.righticon {
+        top: -1rem;
+        margin-right: 5px;
+        position: relative;
+        margin-bottom: 2px;
+        padding: 0.3rem;}
+.right-icons {
+        top: 0.5rem;
+        width: auto;}
+ .center-icons {
+        opacity: 0;
+        width: 0;}
+.imgdp {
+        top: -0.4rem;
+        position: relative;
+        height: 32px;
+        width: 32px; }
+.secondpart-icons {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;}
+.header-second {
+    z-index: 1111;
+    position: fixed;
+        display: block;
+        height: auto;
+        width: 100%;
+        background-color: white;}
+.header-icons {color: #828282;}
+}
+
+
+@media (max-width: 500px) {
+    .search-icon {
+        margin-left: 0.5rem;
+        background-color: #E4E6EB;
+        padding: 0.65rem;
+        border-radius: 50px;
+        height: 2.2rem;
+        margin-top: 0.2rem;
+    }
+}
+
+@media (max-width: 410px) {
+.fblogo {font-size: 2rem;
+    top:-0.1rem;
+    position: relative;}
+    .search-icon {
+        margin-top: -0.2rem;
+    }
+.righticon {
+        top: -1rem;
+        margin-right: 5px;
+        position: relative;
+        margin-bottom: 2px;
+        padding: 0.3rem;}
+.right-icons {
+        width: auto;
+        font-size: 1.2rem;}
+.imgdp {
+        height: 30px;
+        width: 30px;}
+.header-icons {
+        font-size: 1.2rem;}
+}

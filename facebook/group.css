@@ -1,0 +1,519 @@
+body {
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+ 
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.top-hedaing1 {
+    text-transform: capitalize;
+}
+.left-sidebar {
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    max-width: 360px;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.icon-setting {
+    position: relative;
+    color: black;
+    background-color: rgb(236, 236, 238);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.searchbar {
+    background-color: #E4E6EB;
+    padding: 1rem;
+    border-radius: 50px;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.searchbar-icon {
+    position: relative;
+    top: -0.5rem;
+}
+.searchbar-Marketplace {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -1.7rem;
+    outline: none;
+    margin-left: 1rem;
+}
+.searchbar:hover {
+    background-color: #CCCCCC;
+}
+.icon-browse {
+    background-color: blue;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    display: inline;
+    border-radius: 50%;
+}
+.icon-sidebar {
+    display: inline;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 238);
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.iconheadings {
+    display: inline;
+    margin-left: 1rem;
+    text-transform: capitalize;
+}
+.leftside-items {
+    padding: 1rem;
+}
+.leftside-items1 {
+    cursor: pointer;
+    background-color: #EBEDF0;
+    border-radius: 9px;
+    padding: 0.7rem;
+}
+.leftside-items:hover {
+    cursor: pointer;
+    background-color: #EBEDF0;
+    border-radius: 9px;
+}
+.btn-create {
+    text-transform: capitalize;
+    height: 41px;
+    color: blue;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: #ECF3FF;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.3rem;
+}
+.plus-icon,
+.add {
+    display: inline;
+}
+.filter {
+    border-top: 1px groove #CCCCCC;
+    border-bottom: 1px groove #CCCCCC;
+    padding: 0.5rem;
+}
+.filter-heading {
+    font-size: 1rem;
+}
+.filter-lines {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: blue;
+    top: -1rem;
+    position: relative;
+}
+.more-items {
+    margin-top: 1rem;
+}
+.groupumange {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.groupumange:hover {
+    cursor: pointer;
+    background-color: #EBEDF0;
+    border-radius: 7px;
+}
+.secondpart {
+    margin-left: 1rem;
+}
+.activation {
+    position: relative;
+    top: 1.5rem;
+}
+.sidebargroupname {
+    font-size: 1rem;
+    top: 1rem;
+    position: relative;
+}
+.arrow-icon {
+    color: #828282;
+    display: inline;
+    font-size: 1.1rem;
+}
+.thumbback-arrow {
+    display: inline;
+    font-size: 1.1rem;
+}
+.groupheading {
+    display: flex;
+    justify-content: space-between;
+}
+.seeall {
+    color: blue;
+}
+.downwardarrow {
+    color: #828282;
+    display: inline;
+    font-size: 1.1rem;
+}
+.smashcodeimage {
+    top: -1rem;
+    position: relative;
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+}
+.second-part {
+    margin-left: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.sidebarpost-dp {
+    height: 50px;
+    width: 55px;
+    border-radius: 7px;
+}
+
+/* mainpage */
+.fullpage{ display: flex;}
+.main {
+    width: 55%;
+    flex: 1;
+    padding: 20px;}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;}
+
+.first {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;}
+
+.mainpage-heading {
+    text-transform: capitalize;
+    padding-bottom: 1rem;}
+
+.like {
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;}
+
+.thumb {
+    color: blue;
+    display: inline;
+    font-size: 1.5rem;}
+
+.number {
+    display: inline;}
+
+.likecomnt-send {
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px groove #CCCCCC;
+    border-bottom: 1px groove #CCCCCC;
+    cursor: pointer;}
+
+.post-name {
+    display: flex;}
+
+.searchpart {
+    display: flex;
+    justify-content: center;}
+
+.postsearch {
+    margin-left: 0.5rem;
+    width: 90%;
+    top: 0.5rem;
+    position: relative;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: #E4E6EB;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;}
+
+.postsearch:hover {
+    background-color: #CCCCCC;}
+
+.post-search {
+    outline: none;
+    border: none;
+    background-color: transparent;}
+
+.comment-icons {
+    color: #878D94;
+    cursor: pointer;}
+
+.idpic {
+    top: 0.5rem;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;}
+
+.pic1post {
+    top: 1rem;
+    position: relative;
+    margin-right: 1rem;}
+
+.nameofperson {
+    color: #828282;}
+
+.msg {
+    font-size: 1.5rem;
+    line-height: 2;}
+
+.comment {
+    color: #828282;}
+
+.admin {
+    text-transform: capitalize;
+    height: 0.8rem;
+    color: blue;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #ECF3FF;
+    display: inline;
+    width: 60%;
+    padding: 3px;
+    margin: 0.3rem;}
+
+.top-contributor {
+    display: inline;
+    color: black;
+    text-transform: capitalize;
+    background-color: #CCCCCC;
+    padding: 3px;
+    border-radius: 4px;}
+
+.time-posting {
+    display: inline;
+    position: relative;
+    top: -0.2rem;}
+
+.hashtags {
+    color: blue;
+    display: inline;}
+
+.see-more {
+    display: inline}
+
+.see-more:hover {
+    border-bottom: 1px groove black;
+    cursor: pointer;}
+
+.post {
+    margin-top: 0.5rem;
+    width: 95%;}
+
+.reaction {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;}
+
+.onecomnt {
+    float: right;
+    color: #828282;
+padding-right: 0.5rem;}
+
+.oneline-post {
+    border-top: 1px groove #CCCCCC;
+    border-bottom: 1px groove #CCCCCC;}
+
+.join {
+    color: blue;
+    text-transform: capitalize;
+    display: inline;
+    top: 1rem;
+    position: relative;}
+
+.groupname {
+    display: inline;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    display: block;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+cursor: pointer;}
+
+.name-person {
+    color: #828282;
+    margin-top: 1rem;}
+
+.job {
+    padding: 1.5rem;}
+
+.lets-connect {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2;
+    height: 15rem;
+    padding-top: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(289deg 100% 21%) 11%,
+            hsl(315deg 100% 27%) 22%,
+            hsl(329deg 100% 36%) 33%,
+            hsl(337deg 100% 43%) 44%,
+            hsl(357deg 91% 59%) 56%,
+            hsl(17deg 100% 59%) 67%,
+            hsl(34deg 100% 53%) 78%,
+            hsl(45deg 100% 50%) 89%,
+            hsl(55deg 100% 50%) 100%);}
+
+.replied-dp {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;}
+
+.repliedby {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+.reply {
+    color: black;
+    font-size: 0.7rem;
+}
+
+.reply-sec {
+    margin-top: 0.5rem;
+    background-color: #E4E6EB;
+    padding: 0.7rem;
+    border-radius: 28px;
+    height: 3rem;
+}
+
+.post3 {
+    width: 95%;}
+
+.postedby {
+    display: inline;}
+
+.time-posting3 {
+    display: inline;}
+.post-dp {
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;}
+.word{ padding-left: 0.5rem;
+top: 0.2rem; 
+position: relative;}
+.likekro,
+.coment,
+.send{
+    padding: 0.5rem;
+    border-radius: 7px;
+    display: flex;
+}
+
+.likekro:hover,
+.coment:hover,
+.send:hover {
+    background-color: #E4E6EB
+} 
+.github {
+    padding-top: 1rem;
+}
+.sidebaritems-responsive {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: white;
+    width: 100vw;
+    padding: 0.5rem;
+}
+.foru {
+    color: blue;
+}
+.group-dp {
+    height: 60px;
+    width: 90px;
+    cursor: pointer;
+}
+.groups-name {  top: 2rem;
+    display: flex;
+    position:sticky;
+    padding: 0.5rem;
+}
+.group-photo {
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+.responsive-part {
+ display: none;
+    height: 0;
+}
+
+/* responsive ho ra hai bhaeeeeeeeeeeeee */
+
+@media (max-width: 800px) {
+    .left-sidebar {display: none;}
+    .main { width: 100%;
+        padding:0;
+    top: -2rem;
+position: relative; }
+
+    .fullpage {position: relative;
+        top: 2.2rem; 
+    }
+    .mainpage-heading {display: none;}
+
+    .container { max-width: 800px;
+       margin: 0;
+        position: relative;
+        top: 8rem; 
+    }
+    .responsive-part {
+        display: block;
+       }
+}
+
+@media (max-width: 700px) {
+    .main { width: 100%;
+        padding:0;
+    top: -0.3rem;
+position: relative; }}
+
+@media (max-width: 350px) {
+    .postsearch { display: inline;
+    height: 3.2rem; }
+    .msg{ font-size: 1.1rem;}
+    .groupname{ font-size: 1rem;}
+    .secondpart{ margin-left: 0;}
+    .job{ line-height: 1.5;}
+    .group-photo{ padding-top: 0;}
+    .onecomnt{ top: -1.2rem;}
+}

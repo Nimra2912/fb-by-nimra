@@ -1,0 +1,408 @@
+body {
+    box-sizing: inherit;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.sidebar-left {
+    padding-top: 1rem;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    cursor: pointer;
+    width: 23%;
+    bottom: 0;
+    line-height: 2;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    scrollbar-width: none;
+}
+.sidebar-left:hover {
+    scrollbar-width: thin;
+}
+
+.leftside-items {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.leftside-items:hover {
+    scrollbar-width: thin;
+    background-color: rgb(207, 206, 206);
+}
+
+
+.shortcuts {  
+     margin-left: 0.8rem;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 0.5rem;
+}
+
+.ur-shortcuts{
+    color: #828282;
+    font-weight: 300;
+}
+
+.group {
+    display: flex;
+    padding: 0.4REM;
+    border-radius: 7px;
+}
+.group:hover {
+    background-color: rgb(207, 206, 206);
+}
+.smashcode-image {
+    margin-right: 0.3rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.account-name {
+    font-size: 1rem;
+    position: relative;
+    top: 0.4rem;
+}
+
+.dpimg {
+    top: 0.6rem;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.icon {
+    display: inline;
+    color: blue;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.iconheadings-one,
+.iconheadings-two,
+.iconheadings-three,
+.iconheadings-four,
+.iconheadings-five,
+.iconheadings-six,
+.iconheadings-seven,
+.iconheadings-eight,
+.iconheadings-nine,
+.iconheadings-ten {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+.iconheadings-one {
+    margin-left: 0.5rem;
+}
+
+.iconheadings-two {
+    margin-left: 0.4rem;
+}
+
+.iconheadings-three {
+    margin-left: 0.3rem;
+}
+
+.iconheadings-four {
+    margin-left: 0.5rem;
+}
+
+.iconheadings-five {
+    margin-left: 0.7rem;
+}
+
+.iconheadings-six {
+    margin-left: 0.9rem;
+}
+
+.iconheadings-seven {
+    margin-left: 0.5rem;
+}
+
+.iconheadings-eight {
+    margin-left: 0.5rem;
+}
+
+.iconheadings-nine {
+    margin-left: 0.8rem;
+}
+
+.iconheadings-ten {
+    margin-left: 0.7rem;
+}
+
+.mainpage {
+    display: flex;
+}
+
+.sidebar-right {
+    position: fixed;
+    overflow-y: scroll;
+    width: 25%;
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 5px;
+    top: 4rem;
+    padding-top: 2rem;
+    bottom: 0;
+    right: 0;
+    scrollbar-width: none;
+}
+.sidebar-right:hover {
+    scrollbar-width:thin;
+}
+.heading {
+    font-weight: 600;
+    color: rgb(85, 80, 80);
+    letter-spacing: 1px;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.sponsor-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.sponsor-heading {
+    text-transform: capitalize;
+    display: inline;
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+.sponsors {
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+
+.sponsors:hover,
+.noone:hover,
+.top:hover,
+.groups:hover {
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+
+.image {
+    padding: 0.5rem;
+}
+
+.sponsored-part,
+.friendrequest,
+.contacts {
+    padding: 0.5rem;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 0.5rem;
+}
+
+.naam {
+    text-transform: capitalize;
+}
+
+.link {
+    color: rgb(143, 141, 141);
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+}
+
+.id {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+}
+
+.groups {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.seeall {
+    color: blue;
+    margin-right: 8%;
+}
+
+.idpic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.day {
+    margin-left: 10px;
+}
+
+.submit {
+    margin-right: 10px;
+    color: white;
+    background-color: blue;
+    padding: 0.5rem;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    font-size: 11px;
+    top: -0.5rem;
+    position: relative;
+}
+
+.cancel {
+    font-size: 11px;
+    background-color: rgb(192, 190, 190);
+    padding: 0.5rem;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    top: -0.5rem;
+    position: relative;
+}
+
+.contact-img {
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.niday {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+.top-name {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-name {
+    color: rgb(85, 80, 80);
+}
+
+.noone {
+    display: flex;
+    padding: 0.3rem;
+}
+
+.naame {
+    margin-left: 1rem;
+    margin-top: 7px;
+}
+
+.hand {
+    position: relative;
+    font-size: 20px;
+    height: 20px;
+    padding: 5px;
+    color: #F5C33B;
+}
+
+.communitychat {
+    line-height: 1;
+    border-bottom: 1px groove #CCCCCC;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.plus-sign {
+    font-size: 15px;
+    height: 15px;
+    padding: 5px;
+    color: grey;
+}
+
+.contacticon-sidebar {
+    font-size: 1.2rem;
+    margin-right: 8%;
+}
+
+.contact-iconss {
+    margin-left: 1.5rem;
+}
+
+.group-name {
+    position: relative;
+    top: -0.7rem;
+}
+
+.group-names {
+    text-decoration: none;
+    color: black;
+}
+
+.heading-group {
+    font-size: 1.1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .sidebar-right {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .sidebar-left {
+        opacity: 0;
+        width: 0;
+    }
+
+    .sidebar-right {
+        padding-left: 7px;
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .sidebar-left {
+        opacity: 0;
+        width: 0;
+    }
+
+    .sidebar-right {
+        opacity: 0;
+        width: 0;
+    }
+
+}
